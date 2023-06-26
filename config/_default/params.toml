@@ -5,11 +5,11 @@ uniqueHomePage = true # change to false to add sidebar to homepage
 
 blogDir = "blog" # can be posts, blog e.t.c
 
-repo = "https://github.com/onweru/compose"
+repo = "https://github.com/MTRNord/draupnir4all_docs"
 
-time_format_blog = "Monday, January 02, 2006"
-time_format_default = "January 2, 2006"
-enableDarkMode = false # set to false to disable darkmode by default # user will still have the option to use dark mode
+time_format_blog = "Monday, 02 January, 2006"
+time_format_default = "2 January, 2006"
+enableDarkMode = true # set to false to disable darkmode by default # user will still have the option to use dark mode
 defaultLightingMode = "auto" # other possible values: "dark", "light"
 
 # sets the maximum number of lines per codeblock. The codeblock will however be scrollable and expandable.
@@ -42,10 +42,10 @@ key = "da87401a458102ec6bbd6cc5e5cf8d95" # Search-Only API Key
   name = "GitHub"
   iconLight = "images/GitHubMarkLight.svg"
   iconDark = "images/GitHubMarkDark.svg"
-  url = "https://github.com/onweru/compose/"
+  url = "https://github.com/MTRNord/draupnir4all_docs/"
 
 # optional
 # attribution. Feel free to delete this
 [author]
-  name = "Weru"
-  url = "https://neuralvibes.com/author/"
+  name = "MTRNord"
+  url = "https://github.com/MTRNord/"

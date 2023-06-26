@@ -1,30 +1,21 @@
 +++
-title = "Compose"
-[data]
-baseChartOn = 3
-colors = ["#627c62", "#11819b", "#ef7f1a", "#4e1154"]
-columnTitles = ["Section", "Status", "Author"]
-fileLink = "content/projects.csv"
-title = "Projects"
-
+title = "Draupnir4All"
 +++
 {{< block "grid-2" >}}
 {{< column >}}
 
-# Compose your Docs with **Ease**.
+# Upgrade your Matrix Moderation with a Draupnir
 
-Compose is a lean `Hugo` domentation theme, inspired by [forestry.io](https://forestry.io/docs/welcome/).
+Draupnir4all is a community hosted service to get a draupnir to everyone who cannot afford to selfhost it.
+It is free and available to anyone following the Services COC.
 
 {{< tip "warning" >}}
-Feel free to open a [PR](https://github.com/onweru/compose/pulls), raise an [issue](https://github.com/onweru/compose/issues/new/choose "Open a Github Issue")(s) or request new feature(s). {{< /tip >}}
-
-{{< tip >}}
-You can generate diagrams, flowcharts, and piecharts from text in a similar manner as markdown using [mermaid](./docs/compose/mermaid/).
-
-Or, [generate graphs, charts](docs/compose/graphs-charts-tables/#show-a-pie-doughnut--bar-chart-at-once) and tables from a csv, ~~or a json~~ file.
+The Draupnir4all Project is still young and hasn't officially been started yet.
+If you read this please be aware that your registration will be rejected until the official launch and you need to
+redo these steps.
 {{< /tip >}}
 
-{{< button "docs/compose/" "Read the Docs" >}}{{< button "https://github.com/onweru/compose" "Download Theme" >}}
+{{< button "docs/" "Getting started" >}}
 {{< /column >}}
 
 {{< column >}}

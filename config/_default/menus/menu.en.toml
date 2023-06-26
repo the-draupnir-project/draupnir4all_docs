@@ -1,23 +1,23 @@
 #  menu items
-[[main]]
-  name = "Blog"
-  weight = 5
-  url = "blog/"
+# [[main]]
+#   name = "Blog"
+#   weight = 5
+#   url = "blog/"
 
 [[main]]
   name = "Docs"
   weight = 2
   url = "docs/"
 
-[[main]]
-  name = "Tutorials"
-  weight = 2
-  url = "tutorials/"
+# [[main]]
+#   name = "Tutorials"
+#   weight = 2
+#   url = "tutorials/"
 
 [[main]]
-  name = "Example"
+  name = "Status"
   weight = 3
-  url = "https://docs.neuralvibes.com"
+  url = "https://status.draupnir.midnightthoughts.space/"
 
 # [[main]]
 #   name = "Blog"
