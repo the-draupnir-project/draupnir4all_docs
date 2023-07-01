@@ -8,6 +8,13 @@ weight: 1
 Draupnir4all describes a provisioned [Draupnir](https://github.com/gnuxie/Draupnir) instance.
 It comes with all the features of the normal bot without needing to host it yourself.
 
+## What is Draupnir?
+
+Draupnir is a hard fork based on [Mjolnir](https://github.com/matrix-org/mjolnir).
+Both bots are moderation bots for managing rooms in sync. Additionally the bot allows
+to follow room lists across communities and at large scale.
+It works for both small and large communities. Read more at "[Using Draupnir](/docs/how_to_use_draupnir)"
+
 ## Who hosts this?
 
 Currently this is hosted by MTRNord on the draupnir.midnightthoughts.space server which is a
@@ -22,4 +29,4 @@ the infrastructure files can be found here:
 
 ## How do I register?
 
-To get started please follow the "Getting Started" section.
+To get started please follow the "[Getting Started](/docs/getting_started)" section.
