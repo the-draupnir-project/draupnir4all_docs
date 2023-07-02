@@ -23,7 +23,7 @@ To do this inside of your Management room run this command for each room you wan
 to protect:
 
 ```
-!mjolnir rooms add <room id or room alias>
+!draupnir rooms add <room id or room alias>
 ```
 
 {{< tip >}}
@@ -49,11 +49,6 @@ For more advanced set-ups, read the [spec covering power levels](https://spec.ma
 
 ### Setting up policy lists
 
-{{< tip >}}
-Don't be confused by the usage of `!mjolnir` in the following examples.
-This is due to historic reasons of the bot. `!draupnir` would work as well.
-{{< /tip >}}
-
 The core feature of Draupnir is to use policy lists. These allow you to share or subscribe to moderation actions.
 In the most basic setup it just is used as a database for your bot. However in a more advanced setup this allows you
 to share the policies with others or allows you to subscribe to common lists used in the community.
@@ -63,7 +58,7 @@ First of all you should define a default banlist. This is where all your actions
 To set this up you run:
 
 ```
-!mjolnir list create <shortcode> <alias localpart>
+!draupnir list create <shortcode> <alias localpart>
 ```
 
 - `shortcode` is a short name given to this list. It should be short and easy to type. However contrary to mjolnir you are likely not going to type it often.
@@ -73,7 +68,7 @@ This is useful if you ever want to share your ban list with other communities.
 For example, the following command will create a ban list with the short code `spam` and the address `#my-community-spam-ban-list:draupnir.midnightthoughts.space`
 
 ```
-!mjolnir list create spam my-community-spam-ban-list
+!draupnir list create spam my-community-spam-ban-list
 ```
 
 You only need to create a ban list once, and can then add as many users and servers
@@ -84,7 +79,7 @@ no short code is specified.
 For example, to use the ban list with short code `spam` by default, issue the following command:
 
 ```
-!mjolnir default spam
+!draupnir default spam
 ```
 
 #### Subscribing to ban lists
@@ -106,14 +101,14 @@ its address follows the usual `#room_name:server.tld` format.
 Then to make draupnir follow this list, you need to issue the following command in its control room
 
 ```
-!mjolnir watch <room alias/ID>
+!draupnir watch <room alias/ID>
 ```
 
 For example to subscribe to the `#matrix-org-coc-bl:matrix.org` ban list maintained
 by the Matrix Foundation, you would issue the following command
 
 ```
-!mjolnir watch #matrix-org-coc-bl:matrix.org
+!draupnir watch #matrix-org-coc-bl:matrix.org
 ```
 
 ## Moderating with Draupnir
