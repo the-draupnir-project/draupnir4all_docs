@@ -56,7 +56,7 @@ The core feature of Draupnir is to use policy lists. These allow you to share or
 In the most basic setup it just is used as a database for your bot. However in a more advanced setup this allows you
 to share the policies with others or allows you to subscribe to common lists used in the community.
 
-First of all you should define a default banlist. This is where all your actions go to.
+First of all you should define a default policy list. This is where all your actions go to.
 
 To set this up you run:
 
@@ -66,28 +66,28 @@ To set this up you run:
 
 - `shortcode` is a short name given to this list. It should be short and easy to type. However contrary to mjolnir you are likely not going to type it often.
 - `alias localpart` is the local part of the address draupnir is going to create for this list.
-This is useful if you ever want to share your ban list with other communities.
+This is useful if you ever want to share your policy list with other communities.
 
-For example, the following command will create a ban list with the short code `spam` and the address `#my-community-spam-ban-list:draupnir.midnightthoughts.space`
+For example, the following command will create a policy list with the short code `spam` and the address `#my-community-spam-policy-list:draupnir.midnightthoughts.space`
 
 ```
 !draupnir list create spam my-community-spam-ban-list
 ```
 
-You only need to create a ban list once, and can then add as many users and servers
-as you want to that ban list. You can also create as many ban lists as you want.
+You only need to create a policy list once, and can then add as many users and servers
+as you want to that policy list. You can also create as many policy lists as you want.
 
-It is also possible to configure a default ban list draupnir will use for bans if
+It is also possible to configure a default policy list draupnir will use for bans if
 no short code is specified.
-For example, to use the ban list with short code `spam` by default, issue the following command:
+For example, to use the policy list with short code `spam` by default, issue the following command:
 
 ```
 !draupnir default spam
 ```
 
-#### Subscribing to ban lists
+#### Subscribing to policy lists
 
-Ban lists are a clever mechanism that allows moderation teams to ban users for different motives
+Policy lists are a clever mechanism that allows moderation teams to ban users for different motives
 (e.g. one list for `spam` and one for `coc`).
 Such a distinction can be useful when several communities want to collaborate together.
 
@@ -97,7 +97,7 @@ Being able to subscribe to another community's spam list means your own communit
 will be protected from spammers the other community has already met,
 all while observing different code of conducts.
 
-To subscribe to a public ban list, you need to retrieve the address of this list.
+To subscribe to a public policy list, you need to retrieve the address of this list.
 That list being technically nothing more than a Matrix room,
 its address follows the usual `#room_name:server.tld` format.
 
