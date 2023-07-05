@@ -30,3 +30,10 @@ the infrastructure files can be found here:
 ## How do I register?
 
 To get started please follow the "[Getting Started](/docs/getting_started)" section.
+
+## Is this free?
+
+Yes as of now this is completely free. However please make sure to be on fair use terms.
+This means dont try to crash it or cause disruption actively. This will cause you to be banned.
+
+Additionally if you want to support me the best way is to go via <https://en.liberapay.com/MTRNord>
