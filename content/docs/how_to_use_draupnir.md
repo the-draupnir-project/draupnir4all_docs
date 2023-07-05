@@ -114,6 +114,13 @@ by the Matrix Foundation, you would issue the following command
 !draupnir watch #matrix-org-coc-bl:matrix.org
 ```
 
+{{ < tip> }}
+An alternative list we suggest is the CME (Community Moderation Effort) list which is being
+managed by a group of active community members and has proven itself over time to be effective,
+fast and objective with their decissions. You can subscribe to `#community-moderation-effort-bl:neko.dev`
+for it.
+{{ < /tip >}}
+
 ## Moderating with Draupnir
 
 If you are coming from a Mjolnir instance you may just use the same commands as before.
