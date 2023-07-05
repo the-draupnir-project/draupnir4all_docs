@@ -45,6 +45,9 @@ you to the managment room and not the user id you used from the email.
 
 {{< tip >}}
 For more advanced set-ups, read the [spec covering power levels](https://spec.matrix.org/v1.5/client-server-api/#mroompower_levels).
+
+A recommendation is to keep it above 50 (moderators) and below 100 (admins) since admins cannot be demoted by the same level.
+This can for example be done using the "Change server ACLs" permission option in Element-Web's room settings.
 {{< /tip >}}
 
 ### Setting up policy lists
