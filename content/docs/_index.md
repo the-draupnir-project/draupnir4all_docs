@@ -5,15 +5,17 @@ weight: 1
 
 ## What is Draupnir4all?
 
-Draupnir4all describes a provisioned [Draupnir](https://github.com/gnuxie/Draupnir) instance.
-It comes with all the features of the normal bot without needing to host it yourself.
+Draupnir4all is a service that provisions [Draupnir](https://github.com/gnuxie/Draupnir)
+instances for communities and moderators.
+Providing all the features of a normal Draupnir instance without needing to host Draupnir yourself.
 
 ## What is Draupnir?
 
-Draupnir is a hard fork based on [Mjolnir](https://github.com/matrix-org/mjolnir).
-Both bots are moderation bots for managing rooms in sync. Additionally the bot allows
-to follow room lists across communities and at large scale.
+Draupnir allows moderators to manage user and server bans across a community,
+subscribe to community curated spam lists, and organize their community.
 It works for both small and large communities. Read more at "[Using Draupnir](/docs/how_to_use_draupnir)"
+Draupnir is a hard fork based on [Mjolnir](https://github.com/matrix-org/mjolnir).
+Both bots are moderation bots for managing rooms in sync.
 
 ## Who hosts this?
 
