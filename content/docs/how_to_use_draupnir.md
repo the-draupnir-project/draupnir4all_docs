@@ -129,6 +129,29 @@ the following sections.
 
 ### Banning users
 
+Users can be banned from your community by adding them to a policy list.
+When you ban a user from a room, a prompt will be shown in the management room for Draupnir asking
+if the ban should be added to a list. Selecting a list from this prompt will publish a policy,
+and the ban will be synchronised with all of your protected rooms.
+
+Alternatively, the ban command can be used within the management room to ban users directly.
+
+```
+!draupnir ban entity list [...reason]
+```
+
+- `entity` A Matrix user ID, a reference to a room (either an alias, room ID, or a matrix.to URL),
+  or a server name.
+- `list` A reference to a room (either an alias, room ID, or a matrix.to URL) or a list shortcode.
+- `reason` A reason for the ban to be shown in the list (and potentially to other communities that
+  are watching the list).
+
+So to ban a user with the username `@spam:example.com` we would write the following:
+
+```
+!draupnir ban @spam:example.com list spam
+```
+
 ### Kicking users
 
 ### Redacting users
