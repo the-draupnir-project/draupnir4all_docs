@@ -62,7 +62,7 @@ This can, as an example, be done using the "Change server ACLs" permission optio
 Element-Web's room settings.
 {{< /tip >}}
 
-### Setting up policy lists
+### Creating additional policy lists
 
 The core feature of Draupnir is the use policy lists. Policy lists allow moderators to share or
 subscribe to moderation actions.
@@ -72,11 +72,13 @@ to share moderation decisions with other communities.
 This includes watching the lists from other communities in Matrix or
 collaborating with them on the same lists.
 
-First of all you should define a default policy list. This is where all your actions go to.
+Draupnir should have already provided you with a policy list.
+You should be able to find your list by issuing the `!draupnir status` command, where it will
+then be listed under `Subscribed and protected policy lists`.
 
-{{/* FIXME: why are we doing this? doesn't d4all create them a list called `list`? */}}
+Although not necessary, later you may find that you need to create additional lists.
 
-To set this up you run:
+There is a list creation command dedicated for this.
 
 ```
 !draupnir list create <shortcode> <alias localpart>
@@ -92,17 +94,6 @@ address `#my-community-spam-policy-list:draupnir.midnightthoughts.space`:
 
 ```
 !draupnir list create spam my-community-spam-ban-list
-```
-
-You only need to create a policy list once, and you can then add as many users and servers
-as you want to that policy list. You can also create as many policy lists as you want.
-
-It is also possible to configure a default policy list draupnir will use for bans if
-no short code is specified.
-For example, to use the policy list with short code `spam` by default, issue the following command:
-
-```
-!draupnir default spam
 ```
 
 #### Subscribing to policy lists
