@@ -162,6 +162,24 @@ So to ban a user with the username `@spam:example.com` we would write the follow
 !draupnir ban @spam:example.com list spam
 ```
 
+### Unbanning users
+
+Users can be unbanned from your community conveniently by first unbanning the user from a protected
+room from your client interface. A prompt should then show in your management room which will allow
+you to easily remove all of the policies related to this user and unban them from all protected
+rooms.
+
+Alternatively the unban command can be used from within the management room.
+
+```
+!draupnir unban entity list [--true]
+```
+
+This will remove a policy relating to the entity from a policy list.
+If the entity is a user, then it is likely that their membership has been set to `ban` in the
+protected rooms they were joined to. In order to force Draupnir to remove these "room level" bans,
+then an additional option of `--true` must be provided with the unban command.
+
 ### Kicking users
 
 ### Redacting users
