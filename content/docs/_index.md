@@ -13,7 +13,7 @@ Providing all the features of a normal Draupnir instance without needing to host
 
 Draupnir allows moderators to manage user and server bans across a community,
 subscribe to community curated spam lists, and organize their community.
-It works for both small and large communities. Read more at "[Using Draupnir](/docs/how_to_use_draupnir)"
+It works for both small and large communities. Read more at "[Using Draupnir](/docs/how_to_use_draupnir)".
 Draupnir is a hard fork based on [Mjolnir](https://github.com/matrix-org/mjolnir).
 Both bots are moderation bots for managing rooms in sync.
 
