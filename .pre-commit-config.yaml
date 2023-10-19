@@ -5,15 +5,16 @@ ci:
   autoupdate_schedule: weekly
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.4.0
+    rev: v4.5.0
     hooks:
       - id: trailing-whitespace
-        exclude_types: [markdown]
+        args: ["--markdown-linebreak-ext", "md"]
+        exclude_types: [svg]
       - id: end-of-file-fixer
       - id: check-yaml
       - id: check-added-large-files
   - repo: https://github.com/editorconfig-checker/editorconfig-checker.python
-    rev: "2.7.2"
+    rev: "2.7.3"
     hooks:
       - id: editorconfig-checker
         alias: ec
