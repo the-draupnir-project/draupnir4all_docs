@@ -29,7 +29,10 @@ jobs:
       - name: Install dependencies
         uses: r-lib/actions/setup-renv@v2
       - name: Render Book
-        run: Rscript -e 'bookdown::render_book("index.Rmd")'
+        run: |
+          Rscript -e 'bookdown::render_book("index.Rmd", "bookdown::gitbook")'
+          Rscript -e 'bookdown::render_book("index.Rmd", "bookdown::pdf_book")'
+          Rscript -e 'bookdown::render_book("index.Rmd", "bookdown::epub_book")'
       - name: Upload results for deployment
         uses: actions/upload-pages-artifact@v1
         with:
