@@ -1,0 +1,27 @@
+bookdown::gitbook:
+  css: style.css
+  config:
+    toc:
+      before: |
+        <li><a href="./">Draupnir4All</a></li>
+      after: |
+        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+    edit: https://github.com/MTRNord/draupnir4all_docs/edit/main/%s
+    download: ["pdf", "epub"]
+    sharing:
+      facebook: false
+      github: true
+      twitter: false
+      linkedin: false
+      weibo: false
+      # instapaper: false
+      vk: false
+      whatsapp: false
+      all: ['github']
+bookdown::pdf_book:
+  includes:
+    in_header: preamble.tex
+  latex_engine: xelatex
+  citation_package: biblatex
+  keep_tex: yes
+bookdown::epub_book: default

@@ -1,0 +1,5 @@
+edit: https://github.com/MTRNord/draupnir4all_docs/edit/main/%s
+delete_merged_file: true
+language:
+  ui:
+    chapter_name: "Chapter "

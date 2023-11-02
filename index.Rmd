@@ -1,0 +1,17 @@
+--- 
+title: "Draupnir4All"
+author: "MTRNord"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+# url: your book url like https://bookdown.org/yihui/bookdown
+# cover-image: path to the social sharing image like images/cover.jpg
+description: |
+  Draupnir4All is a quick and free community hosted way to get a Moderation
+  Draupnir bot for your community.
+link-citations: yes
+github-repo: the-draupnir-project/Draupnir
+---
+
+# About
