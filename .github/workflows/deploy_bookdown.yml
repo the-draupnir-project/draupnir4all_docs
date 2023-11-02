@@ -27,8 +27,6 @@ jobs:
       - uses: r-lib/actions/setup-tinytex@v2
       - name: Install rmarkdown
         run: Rscript -e 'install.packages(c("rmarkdown","bookdown"))'
-      - name: Install dependencies
-        uses: r-lib/actions/setup-renv@v2
       - name: Render Book
         run: |
           Rscript -e 'bookdown::render_book("index.Rmd", "bookdown::gitbook")'
