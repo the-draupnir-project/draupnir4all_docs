@@ -29,6 +29,7 @@ jobs:
         uses: r-lib/actions/setup-renv@v2
       - name: Render Book
         run: Rscript -e 'bookdown::render_book("index.Rmd")'
+      - name: Upload results for deployment
         uses: actions/upload-pages-artifact@v1
         with:
           path: _book/
