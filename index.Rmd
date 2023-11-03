@@ -9,7 +9,10 @@ description: |
   Draupnir4All is a quick and free community hosted way to get a Moderation
   Draupnir bot for your community.
 link-citations: yes
+colorlinks: true
 github-repo: the-draupnir-project/Draupnir
+biblio-style: apalike
+knit: "bookdown::render_book"
 ---
 
 # About Draupnir4All
