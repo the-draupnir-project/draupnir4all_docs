@@ -1,0 +1,21 @@
+# Getting started
+
+All the things you need to know to get set up will be here. If some are missing
+please feel free to open an issue at https://github.com/the-draupnir-project/draupnir4all_docs
+
+## Registration
+
+```{block2, type='rmdimportant'}
+In the early stages I am going to limit the amount of people that can register
+to figure out proper scaling of the components.
+There will be announcements on the status page when the registrations are paused.
+```
+
+To register you need to write an email to `draupnir4all@nordgedanken.dev`.
+
+Inside of the email you need to provide these infos:
+
+- The matrix ID of the person that is the admin of the provisioned bot. This is NOT the name or id of the bot itself.
+- An estimate of the amount of rooms going to be moderated. This doesn't need to be accurate but helps estimating the resources needed in the early stages.
+
+After you have sent the email you will get a reply by me (MTRNord) when you are registered with further instructions how to get your draupnir instance.

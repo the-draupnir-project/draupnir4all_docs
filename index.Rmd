@@ -5,8 +5,6 @@ date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
-# url: your book url like https://bookdown.org/yihui/bookdown
-# cover-image: path to the social sharing image like images/cover.jpg
 description: |
   Draupnir4All is a quick and free community hosted way to get a Moderation
   Draupnir bot for your community.
@@ -14,4 +12,45 @@ link-citations: yes
 github-repo: the-draupnir-project/Draupnir
 ---
 
-# About
+# About Draupnir4All
+
+## What is this?
+
+Draupnir4all is a service that provisions @Draupnir2023 instances for communities and moderators.
+Providing all the features of a normal Draupnir instance without needing to host Draupnir yourself.
+
+The name originates from the Project name as well as a prior similar attempt named "Mjolnir4All".
+
+## What is Draupnir?
+
+Draupnir allows moderators to manage user and server bans across a community,
+subscribe to community curated spam lists, and organize their community.
+It works for both small and large communities. Read more at "[Using Draupnir]".
+Draupnir is a continuation of the Mjolnir project.
+Both bots are moderation bots for managing rooms in sync.
+
+## Who hosts this service?
+
+Currently this is hosted by [MTRNord](https://github.com/MTRNord) on the `draupnir.midnightthoughts.space` server
+which is a dedicated synapse instance for the draupnir instances.
+
+It is running on a Kubernetes cluster and the infrastructure files can be found here:
+
+- https://git.nordgedanken.dev/kubernetes/gitops/src/branch/main/apps/base/matrix/draupnir-synapse
+- https://git.nordgedanken.dev/kubernetes/gitops/src/branch/main/apps/base/matrix/draupnir4all
+- https://git.nordgedanken.dev/kubernetes/gitops/src/branch/main/apps/production/synapse-draupnir.yaml
+- https://git.nordgedanken.dev/kubernetes/dns/src/branch/main/midnightthoughts.js#L41-L42
+- https://git.nordgedanken.dev/kubernetes/grafana/src/branch/main/draupnir4all.json
+
+This also implies it is community run. While I try to keep a very high uptime
+I also have to be realistic.
+
+## How do I register?
+
+To get started please follow the "[Getting Started]" section.
+
+## Is it free?
+
+Yes as of now this is completely free. However please make sure to be on fair use terms. This means dont try to crash it or cause disruption actively. This will cause you to be banned.
+
+Additionally if you want to support me the best way is to go via https://en.liberapay.com/MTRNord

@@ -7,3 +7,6 @@ rsconnect
 *.log
 *.tex
 *.pdf
+_main_files
+content-license.html
+404.html
