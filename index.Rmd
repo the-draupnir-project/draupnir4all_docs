@@ -11,7 +11,7 @@ description: |
 link-citations: yes
 colorlinks: true
 github-repo: the-draupnir-project/Draupnir
-biblio-style: apalike
+biblio-style: apa
 knit: "bookdown::render_book"
 ---
 
