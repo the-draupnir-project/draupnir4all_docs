@@ -8,9 +8,11 @@ repos:
     rev: v4.5.0
     hooks:
       - id: trailing-whitespace
-        args: ["--markdown-linebreak-ext", "md"]
+        args: ["--markdown-linebreak-ext", "md,Rmd"]
+        exclude: ^renv\/.*$
         exclude_types: [svg]
       - id: end-of-file-fixer
+        exclude_types: [svg]
       - id: check-yaml
       - id: check-added-large-files
   - repo: https://github.com/editorconfig-checker/editorconfig-checker.python

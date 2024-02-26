@@ -31,5 +31,5 @@ We do provide PGP and S/MIME encryption and signatures:
 - [PGP](images/pgp-public.asc)
   - Key ID: `0x5ACE50B42A138D49`
   - Fingerprint: `612E 4F92 213C BB51 45EA B070 5ACE 50B4 2A13 8D49`
-  
+
 By default we will sign all emails with our S/MIME cert unless someone replied with PGP at which point we will reply using PGP.
