@@ -19,3 +19,15 @@ Inside of the email you need to provide these infos:
 - An estimate of the amount of rooms going to be moderated. This doesn't need to be accurate but helps estimating the resources needed in the early stages.
 
 After you have sent the email you will get a reply by me (MTRNord) when you are registered with further instructions how to get your draupnir instance.
+
+### PGP and S/MIME
+
+We do provide PGP and S/MIME encryption and signatures:
+
+- [S-Mime Certificate](images/smime.crt)
+  - Fingerprints:
+    - SHA-256: `FE:1B:E0:65:AC:6D:AA:88:E3:7F:55:D8:7C:5E:93:70:CE:C2:FC:02:CC:C0:DB:C8:30:50:8F:14:07:C4:44:43`
+    - SHA-1: `D0:1C:B6:44:D6:54:06:AB:CA:FB:C1:D8:BC:A0:56:C0:56:9F:3E:B0`
+- [PGP](images/pgp-public.asc)
+  - Key ID: `0x5ACE50B42A138D49`
+  - Fingerprint: `612E 4F92 213C BB51 45EA B070 5ACE 50B4 2A13 8D49`
